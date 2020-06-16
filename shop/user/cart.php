@@ -44,7 +44,7 @@ $result = $conn->query($sql);
         echo"<td colspan='5' style='text-align:center;' >我的购物车</td>";
         echo"<tr>";
         echo"<tr>";
-        echo"<th >用户名</th><th >商品名称</th><th >数量</th><th ></th><th >";
+        echo"<th >用户名</th><th >商品名称</th><th >数量</th><th ></th><th ></th><th >";
         echo"<tr>";
 if ($result->num_rows > 0) {
 while($row = $result->fetch_assoc()) {
@@ -58,6 +58,7 @@ while($row = $result->fetch_assoc()) {
         echo "<td>{$row['count']}</td>";
         echo "<td><a href='editcart.php?uid={$row['user_id']}&gid={$row['goods_id']}&count={$row['count']}'>更改</a></td>";
         echo "<td><a href='deletecart.php?uid={$row['user_id']}&gid={$row['goods_id']}'>删除</a></td>";
+        echo "<td><a href='pay.php?uid={$row['user_id']}&gid={$row['goods_id']}&count={$row['count']}'>付款</a></td>";
         echo"</tr>";
 
  // echo "用户名：".getUserNameById($conn,$row['user_id'])."<br>商品名称:".getGoodsNameById($conn,$row['goods_id'])."<br>数量:".$row['count'];

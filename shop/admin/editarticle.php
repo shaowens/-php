@@ -59,6 +59,8 @@ $sql = "select * from wenzhang where id = ".$article_id;
             <li><a href="userlist.php">用户管理</a></li>
             <li class="active"><a href="articlelist.php">文章管理</a></li>
             <li><a href="advlist.php">广告管理</a></li>
+              <li><a href="orderlist.php">订单管理</a></li>
+
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="../index.php">进入前台 <span class="sr-only">(current)</span></a></li>

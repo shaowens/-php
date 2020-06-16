@@ -52,6 +52,7 @@
             <li><a href="userlist.php">用户列表</a></li>
             <li><a href="articlelist.php">文章列表</a></li>
             <li><a href="advlist.php">广告列表</a></li>
+            <li><a href="orderlist.php">订单列表</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="../index.php">进入前台 <span class="sr-only">(current)</span></a></li>
@@ -65,7 +66,7 @@
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
         <h1>欢迎您，管理员</h1>
-        <p>这里是商城后台管理系统，你可以进行商品管理，用户管理，文章管理，广告管理</p>
+        <p>这里是商城后台管理系统，你可以进行商品管理，用户管理，文章管理，广告管理，订单管理</p>
         <p>精彩购物，尽在商城！</p>
 
       </div>
